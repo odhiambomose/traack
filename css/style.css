@@ -13,9 +13,13 @@ nav{
 }
 
 .part1 {
+    position: fixed; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+     
+    
+    
 }
 
 
@@ -141,4 +145,242 @@ display: flex;
     background-color: #F2F7FB;
     padding-top: 3em;
     margin-top: 3em;
+}
+
+.phone-text{
+    display: flex;
+    padding-top: 3em;
+    justify-content: space-between;
+    
+}
+.center{
+    padding: 1em 0;
+    font-size: 4rem;
+    color: #250D62;
+}
+.pointer {
+padding:3em 1em;
+background-color:#DBEBFB;
+margin: 0 2em;
+font-size: 1.3em;
+width: 60%;
+border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+}
+.brad{
+    margin: 0 2.5em;
+    padding:2.5em 0;
+}
+.brad h4{
+    font-size: 0.9em;
+    color: #250D62;
+}
+.brad p{
+    padding: 0.5em 0;
+}
+.Beekman p{
+    padding: 0.5em 0;
+    margin: 0 2.5em;
+}
+.Beekman{
+    background-color:#F2F7FB ;
+    width: 60%;
+    margin: 0 2em;
+}
+.platform{
+    display: flex;
+    padding: 4.5em 0;
+}
+.traparency p{
+    /* margin-right: 1em; */
+    background-color: #DBEBFB;
+    width: 50%;
+    padding:  0.8em 2em 0.8em 1em;
+}
+.traparency{
+    margin-right: 2em;
+}
+
+.visibility{
+    font-size: 3rem;
+    width: 75%;
+    text-align: center;
+    color: #250D62;
+}
+.dot-text{
+    display: flex;
+}
+.software{
+    
+    padding-top: 8em;
+    background-color: #F2F7FB;
+    margin-top: 5em;
+}
+.influence{
+    display: flex;
+    align-items: center;
+}
+.impact h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    width: 75%;
+    color: #250D62;
+
+}
+.impact p{
+font-size: 1.5rem;
+padding: 1em 0;
+width: 80%;
+
+}
+.ROI{
+    padding: 1em 4em;
+    border-color: #250D62;
+    border-radius: 3px;
+}
+.display{
+    display: flex;
+
+    
+}
+.text-cutex p{
+font-size: 1em;
+padding: 1em 0;
+margin: 1em 0;
+}
+.text-cutex h4{
+    font-size: 1.5em;
+    color: #250D62;
+    margin: 1em 0;
+}
+.text-cutex img{
+    margin-right: 2em;
+}
+.para-heading{
+
+   margin: 3em 0;
+}
+.para-heading h2{
+font-size: 2.5rem;
+
+
+}
+ .para-heading p{
+    font-size: 1.5em;
+    width: 60%;
+} 
+.essentials p{
+
+    font-size: 1.5rem;
+    width: 90%;
+}
+.align{
+    background-color: #F8CFBE;
+}
+.explore{
+    padding: 1em 4em;
+    color: #250D62;
+    border-radius: 3px;
+    background-color: #F8CFBE;
+}
+.explore:hover{
+    background-color: #EF5D4B;
+}
+.explore-btn{
+    display: flex;
+    justify-content: center;
+    /* margin: 3em 0; */
+    
+}
+.explore-btn:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in;
+    
+}
+.sales h2{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.sales {
+    text-align: center;
+    padding:  2em 0; 
+    background-color: #250D62;
+    background-image: url(../images/tiles.svg);
+    background-position: center center;
+}
+
+.cont-sales{
+    padding: 1em 5em;
+     margin-top: 2em; 
+
+}
+.selection{
+    display: flex;
+    gap: 1em;
+}
+
+.business {
+    width: 500px;
+    padding: 3em 0;
+}
+
+.business img{
+    width: 100%;
+}
+.business:hover{
+    box-shadow: 0 0 15px lightgrey;
+}
+.business h4{
+    padding: 1em 0;
+}
+.business p{
+    padding: 2em 0;
+}
+.footer-content{
+    margin-left: 2em;
+    padding-top: 3em;
+}
+.footer-content p{
+    padding: 1em 0;
+}
+.email{
+    padding: 1em 6em;
+}
+.arrow{
+    padding: 1em 1em;
+}
+.button-text h4{
+font-size: 2em;
+color: #250D62;
+}
+.button-text p{
+    font-size: 1.5rem;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-paragraph{
+    width: 30%;
+    padding: 2em 0;
+    line-height: 1.5em;
+    font-size: 1.3rem;
+    font-weight:lighter;
+}
+i{
+    padding: 0 1em;
+}
+ul li{
+    list-style-type: none;
+    padding: .5em 0;
+    
+}
+ul li a:hover{
+    text-decoration: darkgray;
+}
+h3{
+    color:blue;
 }
